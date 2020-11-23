@@ -8,3 +8,5 @@ This tool helps you to recover the photos and video from a damaged apple photo l
 4) drag and drop photoslibrary_extractor.sh in terminal and press ENTER
 5) follow the instructions in terminal
 6) have fun:)
+
+[a relative link](photoslibrary_extractor.sh)
