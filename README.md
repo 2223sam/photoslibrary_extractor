@@ -4,7 +4,7 @@ This tool helps you to recover the photos and video from a damaged apple photo l
 
 1) power on your mac
 2) start terminal (go to dashboard and search terminal)
-3) type: cd ~/Downloads/; git clone 
-4) drag and drop photoslibrary_extractor.sh in terminal and press ENTER
-5) follow the instructions in terminal
+3) type: cd ~/Downloads/; git clone https://github.com/eliasfrehner/photoslibrary_extractor.git
+4) go to "Downloads" & drag and drop "photoslibrary_extractor.sh" into terminal and press ENTER
+5) follow the instructions
 6) have fun:)
