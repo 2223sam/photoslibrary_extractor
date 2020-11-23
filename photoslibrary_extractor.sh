@@ -1,5 +1,5 @@
 clear
-echo database extractor by elias
+echo photoslibrary_extractor by elias
 sleep 5s
 clear
 echo please give me your password for root access
@@ -47,6 +47,6 @@ cd ~/Downloads/
 sudo rm -r dinifotos
 clear
 echo FINISH
-echo press ENTER to open the Folder with the files
+echo press ENTER to open the Folder with the files. stored in Downloads -> Photos
 read
 open ~/Downloads/Photos
