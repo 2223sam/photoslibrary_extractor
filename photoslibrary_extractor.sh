@@ -6,7 +6,7 @@ sleep 2s
 echo
 echo
 echo
-echo "This tool helps you to recover the photos and videos from a damaged apple photo library (.photolibrary)"
+echo "the tool helps you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
 sleep 3s
 echo
 echo
