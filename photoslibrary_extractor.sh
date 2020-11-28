@@ -5,7 +5,7 @@ echo "$(tput setaf 1)photoslibrary_extractor$(tput sgr0) $(tput setaf 2)by$(tput
 sleep 2s
 echo
 echo
-echo "Welcome $(whoami)"
+echo "Welcome $(tput setaf 5)$(whoami)$(tput sgr0)"
 sleep 1
 echo
 echo "the tool helps you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
