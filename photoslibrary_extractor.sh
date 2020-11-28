@@ -43,19 +43,19 @@ mkdir ~/Downloads/YourMedia/Videos/
 clear
 echo "now the process can begin. please press ENTER"
 read
-sudo find . -name '*.jpg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.jpeg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.png' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.heic' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.gif' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.tiff' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.raw' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-sudo find . -name '*.mp4' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-sudo find . -name '*.mov' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-sudo find . -name '*.avi' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-sudo find . -name '*.wmv' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-sudo find . -name '*.mpg' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-sudo find . -name '*.swf' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.jpg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.jpeg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.png' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.heic' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.gif' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.tiff' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.raw' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.mp4' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.mov' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.avi' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.wmv' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.mpg' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.swf' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
 clear
 echo press ENTER to delete the unusable files
 read
