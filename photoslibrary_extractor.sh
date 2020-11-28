@@ -2,6 +2,7 @@
 cd ~/Downloads
 clear
 echo "---photoslibrary_extractor by elias---"
+echo -e "\e[31mphotoslibrary_extractor \e[34mby \e[32melias"
 sleep 2s
 echo
 echo
