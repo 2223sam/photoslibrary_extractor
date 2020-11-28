@@ -36,7 +36,7 @@ read
 clear
 mv ~/Downloads/YourLibrary/*.photoslibrary ~/Downloads/YourLibrary/123.photoslibrary
 rm -r ~/Downloads/YourLibrary/123.photoslibrary/resources/derivatives/masters/
-cd ~/Downloads/YourLibrary/
+cd ~/Downloads/YourLibrary/123.photoslibrary/originals
 mkdir ~/Downloads/YourMedia/
 mkdir ~/Downloads/YourMedia/Photos/
 mkdir ~/Downloads/YourMedia/Videos/
