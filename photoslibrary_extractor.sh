@@ -56,6 +56,7 @@ sudo find . -name '*.avi' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
 sudo find . -name '*.wmv' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
 sudo find . -name '*.mpg' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
 sudo find . -name '*.swf' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+clear
 echo press ENTER to delete the unusable files
 read
 sudo rm -r ~/Downloads/YourLibrary
