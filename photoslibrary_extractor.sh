@@ -1,7 +1,7 @@
 #!/bin/bash
 cd ~/Downloads
 clear
-echo -e "\e[7m---photoslibrary_extractor by elias---"
+echo "---photoslibrary_extractor by elias---"
 sleep 2s
 echo
 echo
