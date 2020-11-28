@@ -5,6 +5,8 @@ echo "---photoslibrary_extractor by elias---"
 sleep 2s
 echo
 echo
+echo "Welcome $(whoami)"
+sleep 1
 echo
 echo "the tool helps you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
 sleep 3s
@@ -27,7 +29,7 @@ echo "press ENTER to continue"
 read
 clear
 echo "as soon as you press ENTER a new window opens. please drag and drop (copy) your library into it and come back to terminal."
-echo "(Downloads/YourLibrary)"
+echo "()"
 read
 open ~/Downloads/YourLibrary
 clear
