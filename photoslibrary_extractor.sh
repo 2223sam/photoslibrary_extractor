@@ -31,7 +31,7 @@ echo "(Downloads/YourLibrary)"
 read
 open ~/Downloads/YourLibrary
 clear
-echo "the library is in it? please press ENTER to contiue"
+echo "as soon as the library is in the folder press ENTER"
 read
 clear
 mv ~/Downloads/YourLibrary/*.photoslibrary ~/Downloads/YourLibrary/123.photoslibrary
