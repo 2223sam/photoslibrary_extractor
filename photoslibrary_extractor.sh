@@ -27,6 +27,7 @@ read
 echo "press ENTER to continue"
 clear
 echo "as soon as you press ENTER a new window opens. please drag and drop your library into it and come back to terminal."
+echo "(Downloads/YourLibrary)"
 read
 open ~/Downloads/YourLibrary
 clear
