@@ -44,6 +44,8 @@ mkdir ~/Downloads/YourMedia/Videos/
 clear
 echo "now the process can begin. please press ENTER"
 read
+clear
+echo "please wait until the tool has completed its task"
 find . -name '*.jpg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
 find . -name '*.jpeg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
 find . -name '*.png' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
@@ -64,6 +66,6 @@ sudo rm -r ~/Downloads/YourLibrary
 clear
 echo "FINISH"
 sleep 1
-echo "press ENTER to open the Folder with the files. stored in Downloads -> Photos"
+echo "press ENTER to open the Folder with the files. stored in Downloads -> YourMedia"
 read
 open ~/Downloads/YourMedia/
