@@ -10,3 +10,6 @@ clear; cd ~/Downloads/ && curl -L0 https://github.com/eliasfrehner/photoslibrary
 
 5) follow the instructions
 6) have fun:)
+
+
+- tested on MacOS Big Sur
