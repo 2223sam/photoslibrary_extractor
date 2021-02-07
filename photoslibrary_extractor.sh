@@ -36,7 +36,7 @@ echo "as soon as the library is in the folder press $(tput setaf 1)ENTER$(tput s
 read
 clear
 mv ~/Downloads/YourLibrary/*.photoslibrary ~/Downloads/YourLibrary/123.photoslibrary
-#rm -r ~/Downloads/YourLibrary/123.photoslibrary/resources/derivatives/masters/
+rm -r ~/Downloads/YourLibrary/123.photoslibrary/resources/derivatives/masters/
 cd ~/Downloads
 cd ~/Downloads/YourLibrary/123.photoslibrary
 #cd ~/Downloads/YourLibrary/123.photoslibrary/originals
