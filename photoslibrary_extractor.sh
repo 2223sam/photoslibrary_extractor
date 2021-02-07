@@ -16,11 +16,11 @@ echo
 echo "press $(tput setaf 1)ENTER$(tput sgr0) to continue"
 read
 clear
-echo "please give me your password for root access"
+echo "please type in your password for root access"
 sudo clear
 mkdir ~/Downloads/YourLibrary
 clear
-echo "!!! BACKUP THE LIBRARY ON A USB OR SIMILAR!!!"
+echo "!!! BACKUP THE LIBRARY ON A USB OR SIMILAR BEFORE USE THIS TOOL!!!"
 sleep 3s
 echo
 echo
@@ -36,8 +36,10 @@ echo "as soon as the library is in the folder press $(tput setaf 1)ENTER$(tput s
 read
 clear
 mv ~/Downloads/YourLibrary/*.photoslibrary ~/Downloads/YourLibrary/123.photoslibrary
-rm -r ~/Downloads/YourLibrary/123.photoslibrary/resources/derivatives/masters/
-cd ~/Downloads/YourLibrary/123.photoslibrary/originals
+#rm -r ~/Downloads/YourLibrary/123.photoslibrary/resources/derivatives/masters/
+cd ~/Downloads
+cd ~/Downloads/YourLibrary/123.photoslibrary
+#cd ~/Downloads/YourLibrary/123.photoslibrary/originals
 mkdir ~/Downloads/YourMedia/
 mkdir ~/Downloads/YourMedia/Photos/
 mkdir ~/Downloads/YourMedia/Videos/
