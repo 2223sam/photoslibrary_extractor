@@ -8,7 +8,7 @@ echo
 echo "Welcome $(tput setaf 5)$(whoami)$(tput sgr0)"
 sleep 1
 echo
-echo "the tool helps you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
+echo "the tool will help you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
 sleep 3s
 echo
 echo
