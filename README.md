@@ -12,4 +12,6 @@ clear; cd ~/Downloads/ && curl -L0 https://github.com/eliasfrehner/photoslibrary
 6) have fun:)
 
 
-- tested on MacOS Big Sur
+tested on
+- Big Sur
+- Yosemite
