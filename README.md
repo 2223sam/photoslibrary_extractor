@@ -1,5 +1,5 @@
 # photoslibrary_extractor
-This tool helps you to recover the photos and video from a damaged apple photo library (.photolibrary).
+This tool will help you to recover the photos and videos from a damaged apple photo library (.photolibrary).
 
 
 1) power on your mac
