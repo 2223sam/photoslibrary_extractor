@@ -8,7 +8,7 @@ echo
 echo "Welcome $(tput setaf 5)$(whoami)$(tput sgr0)"
 sleep 1
 echo
-echo "the tool will help you to extract photos and videos from a damaged apple photo library (.photoslibrary)"
+echo "the tool will help you to extract (mv) photos and videos from a damaged apple photo library (.photoslibrary)"
 sleep 3s
 echo
 echo
@@ -48,19 +48,19 @@ echo "now the process can begin. please press $(tput setaf 1)ENTER$(tput sgr0)"
 read
 clear
 echo "please wait until the tool has completed its task"
-find . -name '*.jpg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.jpeg' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.png' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.heic' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.gif' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.tiff' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.raw' -exec cp {} ~/Downloads/YourMedia/Photos/ \;
-find . -name '*.mp4' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-find . -name '*.mov' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-find . -name '*.avi' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-find . -name '*.wmv' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-find . -name '*.mpg' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
-find . -name '*.swf' -exec cp {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.jpg' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.jpeg' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.png' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.heic' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.gif' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.tiff' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.raw' -exec mv {} ~/Downloads/YourMedia/Photos/ \;
+find . -name '*.mp4' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.mov' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.avi' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.wmv' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.mpg' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
+find . -name '*.swf' -exec mv {} ~/Downloads/YourMedia/Videos/ \;
 clear
 echo press $(tput setaf 1)ENTER$(tput sgr0) to delete the unusable files
 read
